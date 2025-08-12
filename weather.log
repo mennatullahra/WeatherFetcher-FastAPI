@@ -1,0 +1,426 @@
+2025-08-11 17:17:30,673 - WARNING - Invalid City Name!
+Try Again..
+2025-08-11 17:17:36,423 - INFO - Menu is loading
+2025-08-11 17:31:56,119 - INFO - Menu is loading
+2025-08-11 17:31:59,609 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 17:31:59,609 - INFO - Weather Fetcher is initialized.
+2025-08-11 17:31:59,609 - INFO - Fetching weather for: <class 'str'>
+2025-08-11 17:33:36,505 - INFO - Menu is loading
+2025-08-11 17:33:37,877 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 17:33:37,889 - INFO - Weather Fetcher is initialized.
+2025-08-11 17:33:37,889 - INFO - Fetching weather for: <class 'str'>
+2025-08-11 17:36:20,171 - INFO - Menu is loading
+2025-08-11 17:36:21,651 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 17:36:21,651 - INFO - Weather Fetcher is initialized.
+2025-08-11 17:36:21,651 - INFO - Fetching weather for: Cairo
+2025-08-11 17:50:12,358 - INFO - Menu is loading
+2025-08-11 17:50:13,800 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 17:50:13,800 - INFO - Weather Fetcher is initialized.
+2025-08-11 17:51:46,867 - INFO - Menu is loading
+2025-08-11 17:51:48,181 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 17:51:48,181 - INFO - Weather Fetcher is initialized.
+2025-08-11 17:51:48,185 - INFO - Fetching weather for: cairo
+2025-08-11 17:53:54,268 - INFO - Menu is loading
+2025-08-11 17:53:55,508 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 17:53:55,508 - INFO - Weather Fetcher is initialized.
+2025-08-11 17:53:55,508 - INFO - Fetching weather for: cairo
+2025-08-11 17:56:10,222 - INFO - Menu is loading
+2025-08-11 17:56:11,428 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 17:56:11,428 - INFO - Weather Fetcher is initialized.
+2025-08-11 17:56:11,428 - INFO - Fetching weather for: cairo
+2025-08-11 17:56:11,428 - INFO - Weather is initialized.
+2025-08-11 17:56:55,415 - INFO - Menu is loading
+2025-08-11 17:56:56,859 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 17:56:56,859 - INFO - Weather Fetcher is initialized.
+2025-08-11 17:56:56,859 - INFO - Fetching weather for: cairo
+2025-08-11 17:56:56,859 - INFO - Weather is initialized.
+2025-08-11 18:40:21,648 - INFO - Menu is loading
+2025-08-11 18:40:23,306 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 18:41:32,351 - INFO - Menu is loading
+2025-08-11 18:41:33,447 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 18:41:33,447 - INFO - Weather Fetcher is initialized.
+2025-08-11 18:42:05,174 - INFO - Menu is loading
+2025-08-11 18:42:06,265 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 18:42:06,265 - INFO - Weather Fetcher is initialized.
+2025-08-11 18:44:31,564 - INFO - Menu is loading
+2025-08-11 19:10:30,225 - INFO - Menu is loading
+2025-08-11 19:11:47,527 - INFO - Menu is loading
+2025-08-11 19:13:04,715 - INFO - Menu is loading
+2025-08-11 19:13:06,095 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:13:06,095 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:13:06,095 - INFO - Fetching weather for: cairo
+2025-08-11 19:13:06,438 - INFO - Weather is initialized.
+2025-08-11 19:13:06,438 - INFO - City: cairo | Degree: 35.42°C | Condition: clear sky | Humidity: 36%
+2025-08-11 19:13:12,601 - INFO - Menu is loading
+2025-08-11 19:13:13,819 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:13:13,819 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:13:13,819 - INFO - Fetching weather for: london
+2025-08-11 19:13:14,074 - INFO - Weather is initialized.
+2025-08-11 19:13:14,076 - INFO - City: london | Degree: 29.93°C | Condition: scattered clouds | Humidity: 41%
+2025-08-11 19:21:14,142 - INFO - Menu is loading
+2025-08-11 19:21:15,301 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:21:15,301 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:21:15,301 - ERROR - Weather fetch failed after retries.
+Traceback (most recent call last):
+  File "C:\Users\ElSayedM18\Py\Task\main.py", line 24, in check_weather
+    result = await RetryMechanism.retry_async(weather_fetcher.fetch_weather_for_city, city, retries=3, delay=2)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'RetryMechanism' has no attribute 'retry_async'
+2025-08-11 19:22:28,283 - INFO - Menu is loading
+2025-08-11 19:22:30,018 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:22:30,018 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:23:19,056 - INFO - Menu is loading
+2025-08-11 19:23:20,203 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:23:20,203 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:23:20,209 - ERROR - Weather fetch failed after retries.
+Traceback (most recent call last):
+  File "C:\Users\ElSayedM18\Py\Task\main.py", line 25, in check_weather
+    result = await RetryMechanism.retry_async(weather_fetcher.fetch_weather_for_city, city, retries=3, delay=2)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'RetryMechanism' has no attribute 'retry_async'
+2025-08-11 19:24:38,019 - INFO - Menu is loading
+2025-08-11 19:24:39,148 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:24:39,148 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:24:39,148 - ERROR - Weather fetch failed after retries.
+Traceback (most recent call last):
+  File "C:\Users\ElSayedM18\Py\Task\main.py", line 24, in check_weather
+    result = await RetryMechanism.retry_async(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'RetryMechanism' has no attribute 'retry_async'
+2025-08-11 19:25:34,245 - INFO - Menu is loading
+2025-08-11 19:25:35,462 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:25:35,462 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:25:35,478 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:25:35,478 - INFO - Fetching weather for: cairo
+2025-08-11 19:25:35,772 - INFO - Weather is initialized.
+2025-08-11 19:25:35,772 - INFO - Success on attempt 1
+2025-08-11 19:25:35,772 - INFO - City: cairo | Degree: 35.42°C | Condition: clear sky | Humidity: 36%
+2025-08-11 19:25:39,112 - INFO - Menu is loading
+2025-08-11 19:25:40,304 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:25:40,304 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:25:40,304 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:25:40,304 - INFO - Fetching weather for: fray
+2025-08-11 19:25:40,586 - INFO - Weather is initialized.
+2025-08-11 19:25:40,586 - INFO - Success on attempt 1
+2025-08-11 19:25:40,586 - INFO - City: fray | Degree: None°C | Condition: None | Humidity: None%
+2025-08-11 19:29:18,649 - INFO - Menu is loading
+2025-08-11 19:29:21,732 - WARNING - Invalid City Name!
+Try Again..
+2025-08-11 19:29:27,641 - INFO - Menu is loading
+2025-08-11 19:29:44,745 - INFO - Menu is loading
+2025-08-11 19:29:47,187 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:29:47,187 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:29:47,187 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:29:47,187 - INFO - Fetching weather for: cairo
+2025-08-11 19:29:47,488 - WARNING - Incomplete weather data for cairo: {'coord': {'lon': 31.2497, 'lat': 30.0626}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 35.42, 'feels_like': 36.81, 'temp_min': 35.42, 'temp_max': 35.42, 'pressure': 1005, 'humidity': 36, 'sea_level': 1005, 'grnd_level': 998}, 'visibility': 10000, 'wind': {'speed': 6.69, 'deg': 20}, 'clouds': {'all': 0}, 'dt': 1754929640, 'sys': {'type': 1, 'id': 2514, 'country': 'EG', 'sunrise': 1754882397, 'sunset': 1754930437}, 'timezone': 10800, 'id': 360630, 'name': 'Cairo', 'cod': 200}
+2025-08-11 19:29:47,488 - ERROR - Error on attempt 1: Incomplete weather data for cairo
+2025-08-11 19:29:47,488 - INFO - Retrying in 2 seconds...
+2025-08-11 19:29:49,493 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-11 19:29:49,525 - INFO - Fetching weather for: cairo
+2025-08-11 19:29:49,770 - WARNING - Incomplete weather data for cairo: {'coord': {'lon': 31.2497, 'lat': 30.0626}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 35.42, 'feels_like': 36.81, 'temp_min': 35.42, 'temp_max': 35.42, 'pressure': 1005, 'humidity': 36, 'sea_level': 1005, 'grnd_level': 998}, 'visibility': 10000, 'wind': {'speed': 6.69, 'deg': 20}, 'clouds': {'all': 0}, 'dt': 1754929640, 'sys': {'type': 1, 'id': 2514, 'country': 'EG', 'sunrise': 1754882397, 'sunset': 1754930437}, 'timezone': 10800, 'id': 360630, 'name': 'Cairo', 'cod': 200}
+2025-08-11 19:29:49,770 - ERROR - Error on attempt 2: Incomplete weather data for cairo
+2025-08-11 19:29:49,770 - INFO - Retrying in 2 seconds...
+2025-08-11 19:29:51,783 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-11 19:29:51,783 - INFO - Fetching weather for: cairo
+2025-08-11 19:29:52,025 - WARNING - Incomplete weather data for cairo: {'coord': {'lon': 31.2497, 'lat': 30.0626}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 35.42, 'feels_like': 36.81, 'temp_min': 35.42, 'temp_max': 35.42, 'pressure': 1005, 'humidity': 36, 'sea_level': 1005, 'grnd_level': 998}, 'visibility': 10000, 'wind': {'speed': 6.69, 'deg': 20}, 'clouds': {'all': 0}, 'dt': 1754929640, 'sys': {'type': 1, 'id': 2514, 'country': 'EG', 'sunrise': 1754882397, 'sunset': 1754930437}, 'timezone': 10800, 'id': 360630, 'name': 'Cairo', 'cod': 200}
+2025-08-11 19:29:52,031 - ERROR - Error on attempt 3: Incomplete weather data for cairo
+2025-08-11 19:29:52,031 - CRITICAL - All 3 attempts failed.
+2025-08-11 19:29:52,031 - ERROR - Weather fetch failed after retries.
+Traceback (most recent call last):
+  File "C:\Users\ElSayedM18\Py\Task\main.py", line 24, in check_weather
+    result = await RetryMechanism.retry_async(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElSayedM18\Py\Task\RetryMechanism.py", line 22, in retry_async
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElSayedM18\Py\Task\WeatherFetcher.py", line 33, in fetch_weather_for_city
+    raise ValueError(f"Incomplete weather data for {city}")
+ValueError: Incomplete weather data for cairo
+2025-08-11 19:31:48,903 - INFO - Menu is loading
+2025-08-11 19:31:50,892 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:31:50,892 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:31:50,908 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:31:50,908 - INFO - Fetching weather for: cairo
+2025-08-11 19:31:51,191 - INFO - Weather is initialized.
+2025-08-11 19:31:51,191 - INFO - Success on attempt 1
+2025-08-11 19:31:51,191 - INFO - City: cairo | Degree: 35.42°C | Condition: clear sky | Humidity: 36%
+2025-08-11 19:32:00,617 - INFO - Menu is loading
+2025-08-11 19:32:01,824 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:32:01,824 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:32:01,824 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:32:01,824 - INFO - Fetching weather for: farossss
+2025-08-11 19:32:02,104 - INFO - Weather is initialized.
+2025-08-11 19:32:02,104 - INFO - Success on attempt 1
+2025-08-11 19:32:02,104 - INFO - City: farossss | Degree: None°C | Condition: None | Humidity: None%
+2025-08-11 19:33:30,693 - INFO - Menu is loading
+2025-08-11 19:33:32,379 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:33:32,379 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:33:32,379 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:33:32,379 - INFO - Fetching weather for: farosssssss
+2025-08-11 19:33:32,698 - INFO - Weather is initialized.
+2025-08-11 19:33:32,698 - INFO - Success on attempt 1
+2025-08-11 19:33:32,698 - INFO - City: farosssssss | Degree: None°C | Condition: None | Humidity: None%
+2025-08-11 19:34:16,241 - INFO - Menu is loading
+2025-08-11 19:34:17,262 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:34:17,262 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:34:17,262 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:34:17,270 - INFO - Fetching weather for: farossss
+2025-08-11 19:34:17,644 - INFO - Weather is initialized.
+2025-08-11 19:34:17,644 - INFO - Success on attempt 1
+2025-08-11 19:34:17,644 - INFO - City: farossss | Degree: None°C | Condition: None | Humidity: None%
+2025-08-11 19:34:49,607 - INFO - Menu is loading
+2025-08-11 19:34:50,674 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:34:50,674 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:34:50,674 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:34:50,674 - INFO - Fetching weather for: farosssss
+2025-08-11 19:34:51,002 - WARNING - Incomplete weather data for farosssss: {'cod': '404', 'message': 'city not found'}
+2025-08-11 19:34:51,017 - ERROR - Error on attempt 1: Incomplete weather data for farosssss
+2025-08-11 19:34:51,018 - INFO - Retrying in 2 seconds...
+2025-08-11 19:34:53,034 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-11 19:34:53,034 - INFO - Fetching weather for: farosssss
+2025-08-11 19:34:53,316 - WARNING - Incomplete weather data for farosssss: {'cod': '404', 'message': 'city not found'}
+2025-08-11 19:34:53,316 - ERROR - Error on attempt 2: Incomplete weather data for farosssss
+2025-08-11 19:34:53,316 - INFO - Retrying in 2 seconds...
+2025-08-11 19:34:55,321 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-11 19:34:55,321 - INFO - Fetching weather for: farosssss
+2025-08-11 19:34:55,627 - WARNING - Incomplete weather data for farosssss: {'cod': '404', 'message': 'city not found'}
+2025-08-11 19:34:55,627 - ERROR - Error on attempt 3: Incomplete weather data for farosssss
+2025-08-11 19:34:55,627 - CRITICAL - All 3 attempts failed.
+2025-08-11 19:34:55,627 - ERROR - Weather fetch failed after retries.
+Traceback (most recent call last):
+  File "C:\Users\ElSayedM18\Py\Task\main.py", line 24, in check_weather
+    result = await RetryMechanism.retry_async(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElSayedM18\Py\Task\RetryMechanism.py", line 22, in retry_async
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElSayedM18\Py\Task\WeatherFetcher.py", line 36, in fetch_weather_for_city
+    raise ValueError(f"Incomplete weather data for {city}")
+ValueError: Incomplete weather data for farosssss
+2025-08-11 19:35:05,229 - INFO - Menu is loading
+2025-08-11 19:35:31,121 - INFO - Menu is loading
+2025-08-11 19:35:32,749 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:35:32,749 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:35:32,749 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:35:32,751 - INFO - Fetching weather for: farosss
+2025-08-11 19:35:33,041 - WARNING - Incomplete weather data for farosss: {'cod': '404', 'message': 'city not found'}
+2025-08-11 19:35:33,041 - ERROR - Error on attempt 1: Incomplete weather data for farosss
+2025-08-11 19:35:33,041 - INFO - Retrying in 2 seconds...
+2025-08-11 19:35:35,053 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-11 19:35:35,053 - INFO - Fetching weather for: farosss
+2025-08-11 19:35:35,318 - WARNING - Incomplete weather data for farosss: {'cod': '404', 'message': 'city not found'}
+2025-08-11 19:35:35,318 - ERROR - Error on attempt 2: Incomplete weather data for farosss
+2025-08-11 19:35:35,318 - INFO - Retrying in 2 seconds...
+2025-08-11 19:35:37,327 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-11 19:35:37,327 - INFO - Fetching weather for: farosss
+2025-08-11 19:35:37,583 - WARNING - Incomplete weather data for farosss: {'cod': '404', 'message': 'city not found'}
+2025-08-11 19:35:37,583 - ERROR - Error on attempt 3: Incomplete weather data for farosss
+2025-08-11 19:35:37,583 - CRITICAL - All 3 attempts failed.
+2025-08-11 19:35:37,583 - ERROR - Weather fetch failed after retries.
+Traceback (most recent call last):
+  File "C:\Users\ElSayedM18\Py\Task\main.py", line 24, in check_weather
+    result = await RetryMechanism.retry_async(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElSayedM18\Py\Task\RetryMechanism.py", line 22, in retry_async
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElSayedM18\Py\Task\WeatherFetcher.py", line 36, in fetch_weather_for_city
+    raise ValueError(f"Incomplete weather data for {city}")
+ValueError: Incomplete weather data for farosss
+2025-08-11 19:44:41,650 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:44:41,651 - INFO - Weather Recorder is initialized.
+2025-08-11 19:44:44,246 - INFO - Menu is loading
+2025-08-11 19:44:45,322 - INFO - Checking weather... (feature not implemented yet)
+2025-08-11 19:44:45,327 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:44:45,327 - INFO - Fetching weather for: cairo
+2025-08-11 19:44:45,672 - INFO - Weather is initialized.
+2025-08-11 19:44:45,672 - INFO - Success on attempt 1
+2025-08-11 19:44:45,672 - INFO - City: cairo | Degree: 35.42°C | Condition: clear sky | Humidity: 36%
+2025-08-11 19:44:45,672 - INFO - Adding Record
+2025-08-11 19:45:42,044 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:45:42,044 - INFO - Weather Recorder is initialized.
+2025-08-11 19:45:43,731 - INFO - Menu is loading
+2025-08-11 19:45:44,907 - INFO - Checking weather...
+2025-08-11 19:45:44,908 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:45:44,908 - INFO - Fetching weather for: cairo
+2025-08-11 19:45:45,158 - INFO - Weather is initialized.
+2025-08-11 19:45:45,158 - INFO - Success on attempt 1
+2025-08-11 19:45:45,158 - INFO - City: cairo | Degree: 35.42°C | Condition: clear sky | Humidity: 36%
+2025-08-11 19:45:45,158 - INFO - Adding Record
+2025-08-11 19:46:06,634 - INFO - Menu is loading
+2025-08-11 19:46:09,498 - INFO - Checking weather...
+2025-08-11 19:46:09,498 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:46:09,498 - INFO - Fetching weather for: london
+2025-08-11 19:46:09,730 - INFO - Weather is initialized.
+2025-08-11 19:46:09,746 - INFO - Success on attempt 1
+2025-08-11 19:46:09,746 - INFO - City: london | Degree: 29.6°C | Condition: scattered clouds | Humidity: 42%
+2025-08-11 19:46:09,746 - INFO - Adding Record
+2025-08-11 19:46:13,932 - INFO - Menu is loading
+2025-08-11 19:46:16,467 - INFO - Viewing history...
+2025-08-11 19:46:35,096 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:46:35,096 - INFO - Weather Recorder is initialized.
+2025-08-11 19:46:41,086 - INFO - Menu is loading
+2025-08-11 19:46:42,389 - INFO - Viewing history...
+2025-08-11 19:46:47,280 - INFO - Menu is loading
+2025-08-11 19:46:47,527 - INFO - Checking weather...
+2025-08-11 19:46:47,527 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:46:47,527 - INFO - Fetching weather for: london
+2025-08-11 19:46:47,801 - INFO - Weather is initialized.
+2025-08-11 19:46:47,801 - INFO - Success on attempt 1
+2025-08-11 19:46:47,801 - INFO - City: london | Degree: 29.6°C | Condition: scattered clouds | Humidity: 42%
+2025-08-11 19:46:47,801 - INFO - Adding Record
+2025-08-11 19:46:53,583 - INFO - Menu is loading
+2025-08-11 19:46:54,844 - INFO - Viewing history...
+2025-08-11 19:47:06,673 - INFO - Menu is loading
+2025-08-11 19:47:07,598 - INFO - Checking weather...
+2025-08-11 19:47:07,604 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:47:07,605 - INFO - Fetching weather for: cairo
+2025-08-11 19:47:07,815 - INFO - Weather is initialized.
+2025-08-11 19:47:07,815 - INFO - Success on attempt 1
+2025-08-11 19:47:07,815 - INFO - City: cairo | Degree: 35.42°C | Condition: clear sky | Humidity: 36%
+2025-08-11 19:47:07,815 - INFO - Adding Record
+2025-08-11 19:47:10,171 - INFO - Menu is loading
+2025-08-11 19:47:10,696 - INFO - Viewing history...
+2025-08-11 19:48:45,973 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:48:45,988 - INFO - Weather Recorder is initialized.
+2025-08-11 19:48:45,988 - INFO - Menu is loading
+2025-08-11 19:50:18,150 - INFO - Weather Fetcher is initialized.
+2025-08-11 19:50:18,150 - INFO - Weather Recorder is initialized.
+2025-08-11 19:50:32,557 - INFO - Viewing history...
+2025-08-11 19:50:38,135 - INFO - Viewing history...
+2025-08-11 19:51:11,205 - INFO - Checking weather...
+2025-08-11 19:51:11,205 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-11 19:51:11,205 - INFO - Fetching weather for: cairo
+2025-08-11 19:51:11,541 - INFO - Weather is initialized.
+2025-08-11 19:51:11,541 - INFO - Success on attempt 1
+2025-08-11 19:51:11,541 - INFO - City: cairo | Degree: 35.42°C | Condition: clear sky | Humidity: 36%
+2025-08-11 19:51:11,541 - INFO - Adding Record
+2025-08-12 10:42:34,743 - INFO - Weather Fetcher is initialized.
+2025-08-12 10:42:34,744 - INFO - Weather Recorder is initialized.
+2025-08-12 10:42:34,747 - INFO - Menu Loading
+2025-08-12 10:42:36,787 - INFO - Menu Loading
+2025-08-12 10:42:49,945 - INFO - Checking weather...
+2025-08-12 10:42:49,945 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 10:42:49,946 - INFO - Fetching weather for: cairo
+2025-08-12 10:42:50,298 - INFO - Weather is initialized.
+2025-08-12 10:42:50,300 - INFO - Success on attempt 1
+2025-08-12 10:42:50,301 - INFO - City: cairo | Degree: 31.9°C | Condition: clear sky | Humidity: 49%
+2025-08-12 10:42:50,302 - INFO - Adding Record
+2025-08-12 10:42:50,302 - INFO - Menu Loading
+2025-08-12 10:43:01,032 - INFO - Viewing history...
+2025-08-12 10:43:01,033 - INFO - Menu Loading
+2025-08-12 10:43:52,563 - INFO - Weather Fetcher is initialized.
+2025-08-12 10:43:52,565 - INFO - Weather Recorder is initialized.
+2025-08-12 10:43:52,570 - INFO - Menu Loading
+2025-08-12 10:43:55,455 - INFO - Checking weather...
+2025-08-12 10:43:55,456 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 10:43:55,457 - INFO - Fetching weather for: cairo
+2025-08-12 10:43:55,760 - INFO - Weather is initialized.
+2025-08-12 10:43:55,762 - INFO - Success on attempt 1
+2025-08-12 10:43:55,762 - INFO - City: cairo | Degree: 31.9°C | Condition: clear sky | Humidity: 49%
+2025-08-12 10:43:55,763 - INFO - Adding Record
+2025-08-12 10:43:55,764 - INFO - Menu Loading
+2025-08-12 10:43:56,909 - INFO - Viewing history...
+2025-08-12 10:43:56,910 - INFO - Menu Loading
+2025-08-12 10:44:43,538 - INFO - Weather Fetcher is initialized.
+2025-08-12 10:44:43,539 - INFO - Weather Recorder is initialized.
+2025-08-12 10:44:43,543 - INFO - Menu Loading
+2025-08-12 10:44:46,865 - INFO - Checking weather...
+2025-08-12 10:44:46,865 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 10:44:46,866 - INFO - Fetching weather for: cairo
+2025-08-12 10:44:47,182 - INFO - Weather is initialized.
+2025-08-12 10:44:47,184 - INFO - Success on attempt 1
+2025-08-12 10:44:47,184 - INFO - City: cairo | Degree: 31.9°C | Condition: clear sky | Humidity: 49%
+2025-08-12 10:44:47,185 - INFO - Adding Record
+2025-08-12 10:44:47,185 - INFO - Menu Loading
+2025-08-12 10:44:48,432 - INFO - Viewing history...
+2025-08-12 10:44:48,433 - INFO - Menu Loading
+2025-08-12 10:44:59,882 - INFO - Weather Fetcher is initialized.
+2025-08-12 10:44:59,883 - INFO - Weather Recorder is initialized.
+2025-08-12 10:44:59,888 - INFO - Menu Loading
+2025-08-12 10:45:05,163 - INFO - Checking weather...
+2025-08-12 10:45:05,164 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 10:45:05,165 - INFO - Fetching weather for: alexandria
+2025-08-12 10:45:05,426 - INFO - Weather is initialized.
+2025-08-12 10:45:05,428 - INFO - Success on attempt 1
+2025-08-12 10:45:05,428 - INFO - City: alexandria | Degree: 31.65°C | Condition: clear sky | Humidity: 51%
+2025-08-12 10:45:05,430 - INFO - Adding Record
+2025-08-12 10:45:05,431 - INFO - Menu Loading
+2025-08-12 10:45:11,695 - INFO - Viewing history...
+2025-08-12 10:45:11,696 - INFO - Menu Loading
+2025-08-12 10:45:16,261 - INFO - Checking weather...
+2025-08-12 10:45:16,262 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 10:45:16,262 - INFO - Fetching weather for: cairo
+2025-08-12 10:45:16,502 - INFO - Weather is initialized.
+2025-08-12 10:45:16,503 - INFO - Success on attempt 1
+2025-08-12 10:45:16,504 - INFO - City: cairo | Degree: 31.9°C | Condition: clear sky | Humidity: 49%
+2025-08-12 10:45:16,504 - INFO - Adding Record
+2025-08-12 10:45:16,505 - INFO - Menu Loading
+2025-08-12 10:45:17,578 - INFO - Viewing history...
+2025-08-12 10:45:17,578 - INFO - Menu Loading
+2025-08-12 10:45:31,268 - INFO - Checking weather...
+2025-08-12 10:45:31,268 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 10:45:31,269 - INFO - Fetching weather for: london
+2025-08-12 10:45:31,559 - INFO - Weather is initialized.
+2025-08-12 10:45:31,562 - INFO - Success on attempt 1
+2025-08-12 10:45:31,562 - INFO - City: london | Degree: 21.77°C | Condition: few clouds | Humidity: 76%
+2025-08-12 10:45:31,563 - INFO - Adding Record
+2025-08-12 10:45:31,564 - INFO - Menu Loading
+2025-08-12 10:45:32,531 - INFO - Viewing history...
+2025-08-12 10:45:32,533 - INFO - Menu Loading
+2025-08-12 11:07:17,733 - INFO - Weather Fetcher is initialized.
+2025-08-12 11:07:17,737 - INFO - Weather Recorder is initialized.
+2025-08-12 11:07:17,740 - INFO - Menu Loading
+2025-08-12 11:07:22,638 - INFO - Checking weather...
+2025-08-12 11:07:22,639 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 11:07:22,639 - INFO - Fetching weather for: cairo
+2025-08-12 11:07:22,970 - INFO - Weather is initialized.
+2025-08-12 11:07:22,973 - INFO - Success on attempt 1
+2025-08-12 11:07:22,974 - INFO - City: cairo | Degree: 34.42°C | Condition: clear sky | Humidity: 36%
+2025-08-12 11:07:22,974 - INFO - Adding Record
+2025-08-12 11:07:22,974 - INFO - Menu Loading
+2025-08-12 11:07:25,264 - INFO - Viewing history...
+2025-08-12 11:07:25,266 - INFO - Menu Loading
+2025-08-12 11:07:28,186 - INFO - Exporting to CSV...
+2025-08-12 11:07:28,188 - INFO - Menu Loading
+2025-08-12 11:11:07,981 - INFO - Weather Fetcher is initialized.
+2025-08-12 11:11:07,983 - INFO - Weather Recorder is initialized.
+2025-08-12 11:11:07,987 - INFO - Menu Loading
+2025-08-12 11:11:08,809 - INFO - Exporting to CSV...
+2025-08-12 11:11:08,810 - WARNING - No weather records to export.
+2025-08-12 11:11:08,811 - INFO - Menu Loading
+2025-08-12 11:11:15,685 - INFO - Checking weather...
+2025-08-12 11:11:15,686 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 11:11:15,686 - INFO - Fetching weather for: cairo
+2025-08-12 11:11:16,006 - INFO - Weather is initialized.
+2025-08-12 11:11:16,009 - INFO - Success on attempt 1
+2025-08-12 11:11:16,010 - INFO - City: cairo | Degree: 34.42°C | Condition: clear sky | Humidity: 36%
+2025-08-12 11:11:16,010 - INFO - Adding Record
+2025-08-12 11:11:16,011 - INFO - Menu Loading
+2025-08-12 11:11:17,373 - INFO - Exporting to CSV...
+2025-08-12 11:11:17,374 - INFO - Menu Loading
+2025-08-12 11:12:47,856 - INFO - Weather Fetcher is initialized.
+2025-08-12 11:12:47,857 - INFO - Weather Recorder is initialized.
+2025-08-12 11:12:47,860 - INFO - Menu Loading
+2025-08-12 11:12:50,850 - INFO - Checking weather...
+2025-08-12 11:12:50,851 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 11:12:50,851 - INFO - Fetching weather for: cairo
+2025-08-12 11:12:51,141 - INFO - Weather is initialized.
+2025-08-12 11:12:51,145 - INFO - Success on attempt 1
+2025-08-12 11:12:51,146 - INFO - City: cairo | Degree: 34.42°C | Condition: clear sky | Humidity: 36%
+2025-08-12 11:12:51,147 - INFO - Adding Record
+2025-08-12 11:12:51,148 - INFO - Menu Loading
+2025-08-12 11:12:52,422 - INFO - Exporting to CSV...
+2025-08-12 11:12:52,424 - INFO - Weather history exported to C:\Users\ElSayedM18\Py\Task\weather.csv
+2025-08-12 11:12:52,425 - INFO - Menu Loading
+2025-08-12 11:13:21,787 - INFO - Checking weather...
+2025-08-12 11:13:21,788 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-12 11:13:21,788 - INFO - Fetching weather for: alexandria
+2025-08-12 11:13:22,104 - INFO - Weather is initialized.
+2025-08-12 11:13:22,105 - INFO - Success on attempt 1
+2025-08-12 11:13:22,106 - INFO - City: alexandria | Degree: 31.65°C | Condition: clear sky | Humidity: 51%
+2025-08-12 11:13:22,107 - INFO - Adding Record
+2025-08-12 11:13:22,107 - INFO - Menu Loading
+2025-08-12 11:13:23,852 - INFO - Exporting to CSV...
+2025-08-12 11:13:23,855 - INFO - Weather history exported to C:\Users\ElSayedM18\Py\Task\weather.csv
+2025-08-12 11:13:23,856 - INFO - Menu Loading
