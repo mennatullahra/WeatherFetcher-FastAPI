@@ -424,3 +424,777 @@ ValueError: Incomplete weather data for farosss
 2025-08-12 11:13:23,852 - INFO - Exporting to CSV...
 2025-08-12 11:13:23,855 - INFO - Weather history exported to C:\Users\ElSayedM18\Py\Task\weather.csv
 2025-08-12 11:13:23,856 - INFO - Menu Loading
+2025-08-12 16:17:01,825 - INFO - Weather Fetcher is initialized.
+2025-08-12 16:17:01,825 - INFO - Weather Recorder is initialized.
+2025-08-12 16:18:02,236 - INFO - Weather Fetcher is initialized.
+2025-08-12 16:18:02,236 - INFO - Weather Recorder is initialized.
+2025-08-12 16:22:12,112 - INFO - Weather Fetcher is initialized.
+2025-08-12 16:22:13,665 - INFO - Weather Fetcher is initialized.
+2025-08-12 16:22:49,970 - INFO - Weather Fetcher is initialized.
+2025-08-12 16:24:24,888 - INFO - Weather Fetcher is initialized.
+2025-08-12 16:24:24,888 - INFO - Weather Fetcher is initialized.
+2025-08-12 16:24:24,888 - INFO - Weather Recorder is initialized.
+2025-08-12 16:24:27,806 - INFO - Weather Fetcher is initialized.
+2025-08-12 16:25:12,842 - INFO - Fetching weather for: Cairo
+2025-08-12 16:25:22,231 - INFO - Fetching weather for: Cairo
+2025-08-12 19:55:44,332 - INFO - Fetching weather for: Cairo
+2025-08-12 20:03:49,574 - INFO - Weather Fetcher is initialized.
+2025-08-12 20:03:49,574 - INFO - Weather Fetcher is initialized.
+2025-08-12 20:03:49,574 - INFO - Weather Recorder is initialized.
+2025-08-12 20:03:52,021 - INFO - Weather Fetcher is initialized.
+2025-08-12 20:03:56,535 - INFO - Fetching weather for: Cairo
+2025-08-12 20:03:57,734 - INFO - Fetching weather for: Cairo
+2025-08-12 20:04:01,987 - INFO - Fetching weather for: Cairo
+2025-08-12 20:04:20,849 - INFO - Fetching weather for: London
+2025-08-12 20:04:25,849 - INFO - Fetching weather for: london
+2025-08-12 22:32:27,800 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:32:27,800 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:32:27,800 - INFO - Weather Recorder is initialized.
+2025-08-12 22:32:29,649 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:33:20,055 - INFO - Fetching weather for: london
+2025-08-12 22:33:22,005 - INFO - Fetching weather for: london
+2025-08-12 22:33:39,985 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:34:13,182 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:34:13,187 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:34:13,188 - INFO - Weather Recorder is initialized.
+2025-08-12 22:34:14,016 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:34:14,028 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:34:14,029 - INFO - Weather Recorder is initialized.
+2025-08-12 22:34:14,033 - INFO - Menu Loading
+2025-08-12 22:34:19,042 - INFO - Fetching weather for: london
+2025-08-12 22:34:20,140 - INFO - Fetching weather for: london
+2025-08-12 22:34:33,296 - INFO - Fetching weather for: cairo
+2025-08-12 22:34:38,652 - INFO - Fetching weather for: cairo
+2025-08-12 22:35:06,790 - INFO - Fetching weather for: cairo
+2025-08-12 22:38:07,082 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:38:07,082 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:38:07,082 - INFO - Weather Recorder is initialized.
+2025-08-12 22:38:08,498 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:38:08,498 - INFO - Weather Fetcher is initialized.
+2025-08-12 22:38:08,498 - INFO - Weather Recorder is initialized.
+2025-08-12 22:38:08,512 - INFO - Menu Loading
+2025-08-12 22:38:08,645 - INFO - Fetching weather for: cairo
+2025-08-13 10:45:49,855 - INFO - Weather Fetcher is initialized.
+2025-08-13 10:45:49,855 - INFO - Weather Fetcher is initialized.
+2025-08-13 10:45:49,855 - INFO - Weather Recorder is initialized.
+2025-08-13 10:46:21,242 - INFO - Fetching weather for: cairo
+2025-08-13 10:47:25,712 - INFO - Weather Fetcher is initialized.
+2025-08-13 10:47:25,712 - INFO - Weather Fetcher is initialized.
+2025-08-13 10:47:25,717 - INFO - Weather Fetcher is initialized.
+2025-08-13 10:47:25,718 - INFO - Weather Recorder is initialized.
+2025-08-13 10:47:25,718 - INFO - Weather Recorder is initialized.
+2025-08-13 10:58:50,479 - INFO - Weather Fetcher is initialized.
+2025-08-13 10:58:50,480 - INFO - Weather Fetcher is initialized.
+2025-08-13 10:58:50,484 - INFO - Weather Fetcher is initialized.
+2025-08-13 10:58:50,484 - INFO - Weather Recorder is initialized.
+2025-08-13 10:58:50,484 - INFO - Weather Recorder is initialized.
+2025-08-13 10:58:59,679 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 10:58:59,679 - INFO - Fetching weather for: Cairo
+2025-08-13 10:58:59,948 - ERROR - Error on attempt 1: BaseModel.__init__() takes 1 positional argument but 5 were given
+2025-08-13 10:58:59,948 - INFO - Retrying in 2 seconds...
+2025-08-13 10:59:01,961 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 10:59:01,961 - INFO - Fetching weather for: Cairo
+2025-08-13 10:59:02,222 - ERROR - Error on attempt 2: BaseModel.__init__() takes 1 positional argument but 5 were given
+2025-08-13 10:59:02,222 - INFO - Retrying in 2 seconds...
+2025-08-13 10:59:04,226 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 10:59:04,226 - INFO - Fetching weather for: Cairo
+2025-08-13 10:59:04,478 - ERROR - Error on attempt 3: BaseModel.__init__() takes 1 positional argument but 5 were given
+2025-08-13 10:59:04,478 - CRITICAL - All 3 attempts failed.
+2025-08-13 10:59:14,499 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 10:59:14,500 - INFO - Fetching weather for: London
+2025-08-13 10:59:14,759 - ERROR - Error on attempt 1: BaseModel.__init__() takes 1 positional argument but 5 were given
+2025-08-13 10:59:14,759 - INFO - Retrying in 2 seconds...
+2025-08-13 10:59:16,771 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 10:59:16,771 - INFO - Fetching weather for: London
+2025-08-13 10:59:17,056 - ERROR - Error on attempt 2: BaseModel.__init__() takes 1 positional argument but 5 were given
+2025-08-13 10:59:17,056 - INFO - Retrying in 2 seconds...
+2025-08-13 10:59:19,055 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 10:59:19,055 - INFO - Fetching weather for: London
+2025-08-13 10:59:19,339 - ERROR - Error on attempt 3: BaseModel.__init__() takes 1 positional argument but 5 were given
+2025-08-13 10:59:19,339 - CRITICAL - All 3 attempts failed.
+2025-08-13 11:01:31,810 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:01:31,810 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:01:31,810 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:01:31,810 - INFO - Weather Recorder is initialized.
+2025-08-13 11:01:31,810 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:01:31,810 - INFO - Weather Recorder is initialized.
+2025-08-13 11:01:38,131 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:01:38,132 - INFO - Fetching weather for: Cairo
+2025-08-13 11:01:38,426 - ERROR - Error on attempt 1: BaseModel.__init__() takes 1 positional argument but 5 were given
+2025-08-13 11:01:38,426 - INFO - Retrying in 2 seconds...
+2025-08-13 11:01:40,440 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 11:01:40,440 - INFO - Fetching weather for: Cairo
+2025-08-13 11:01:40,707 - ERROR - Error on attempt 2: BaseModel.__init__() takes 1 positional argument but 5 were given
+2025-08-13 11:01:40,707 - INFO - Retrying in 2 seconds...
+2025-08-13 11:01:42,722 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 11:01:42,723 - INFO - Fetching weather for: Cairo
+2025-08-13 11:01:42,995 - ERROR - Error on attempt 3: BaseModel.__init__() takes 1 positional argument but 5 were given
+2025-08-13 11:01:42,995 - CRITICAL - All 3 attempts failed.
+2025-08-13 11:07:42,066 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:07:42,208 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:07:44,613 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:07:44,629 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:07:46,882 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:07:46,905 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:07:57,553 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:07:57,553 - INFO - Fetching weather for: cairo
+2025-08-13 11:07:57,827 - INFO - Success on attempt 1
+2025-08-13 11:08:16,638 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:08:16,638 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:08:16,638 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:08:16,638 - INFO - Weather Recorder is initialized.
+2025-08-13 11:08:16,652 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:08:16,652 - INFO - Weather Recorder is initialized.
+2025-08-13 11:08:22,378 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:08:22,378 - INFO - Fetching weather for: cairo
+2025-08-13 11:08:22,637 - INFO - Success on attempt 1
+2025-08-13 11:09:12,994 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:09:12,994 - INFO - Fetching weather for: cairo
+2025-08-13 11:09:13,319 - INFO - Success on attempt 1
+2025-08-13 11:09:16,464 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:09:16,464 - INFO - Fetching weather for: cai
+2025-08-13 11:09:16,745 - WARNING - Incomplete weather data for cai: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:09:16,745 - ERROR - Error on attempt 1: Incomplete weather data for cai
+2025-08-13 11:09:16,745 - INFO - Retrying in 2 seconds...
+2025-08-13 11:09:18,766 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 11:09:18,766 - INFO - Fetching weather for: cai
+2025-08-13 11:09:19,034 - WARNING - Incomplete weather data for cai: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:09:19,034 - ERROR - Error on attempt 2: Incomplete weather data for cai
+2025-08-13 11:09:19,034 - INFO - Retrying in 2 seconds...
+2025-08-13 11:09:21,031 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 11:09:21,032 - INFO - Fetching weather for: cai
+2025-08-13 11:09:21,267 - WARNING - Incomplete weather data for cai: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:09:21,267 - ERROR - Error on attempt 3: Incomplete weather data for cai
+2025-08-13 11:09:21,267 - CRITICAL - All 3 attempts failed.
+2025-08-13 11:09:34,061 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:09:34,061 - INFO - Fetching weather for: cai1
+2025-08-13 11:09:34,345 - WARNING - Incomplete weather data for cai1: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:09:34,346 - ERROR - Error on attempt 1: Incomplete weather data for cai1
+2025-08-13 11:09:34,346 - INFO - Retrying in 2 seconds...
+2025-08-13 11:09:36,345 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 11:09:36,345 - INFO - Fetching weather for: cai1
+2025-08-13 11:09:36,633 - WARNING - Incomplete weather data for cai1: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:09:36,634 - ERROR - Error on attempt 2: Incomplete weather data for cai1
+2025-08-13 11:09:36,634 - INFO - Retrying in 2 seconds...
+2025-08-13 11:09:38,642 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 11:09:38,642 - INFO - Fetching weather for: cai1
+2025-08-13 11:09:38,927 - WARNING - Incomplete weather data for cai1: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:09:38,927 - ERROR - Error on attempt 3: Incomplete weather data for cai1
+2025-08-13 11:09:38,927 - CRITICAL - All 3 attempts failed.
+2025-08-13 11:11:33,930 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:11:33,936 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:11:33,936 - INFO - Weather Recorder is initialized.
+2025-08-13 11:11:34,002 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:11:34,006 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:11:34,006 - INFO - Weather Recorder is initialized.
+2025-08-13 11:16:45,801 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:16:45,805 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:16:45,806 - INFO - Weather Recorder is initialized.
+2025-08-13 11:16:45,848 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:16:45,854 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:16:45,854 - INFO - Weather Recorder is initialized.
+2025-08-13 11:16:59,163 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:16:59,163 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:16:59,163 - INFO - Weather Recorder is initialized.
+2025-08-13 11:16:59,279 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:16:59,293 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:16:59,293 - INFO - Weather Recorder is initialized.
+2025-08-13 11:17:12,322 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:17:12,357 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:17:12,358 - INFO - Weather Recorder is initialized.
+2025-08-13 11:17:12,418 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:17:12,418 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:17:12,418 - INFO - Weather Recorder is initialized.
+2025-08-13 11:18:13,384 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:18:13,384 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:18:13,449 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:18:13,451 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:18:13,451 - INFO - Weather Recorder is initialized.
+2025-08-13 11:18:13,451 - INFO - Weather Recorder is initialized.
+2025-08-13 11:19:16,333 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:19:16,333 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:19:16,333 - INFO - Weather Recorder is initialized.
+2025-08-13 11:19:16,344 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:19:16,351 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:19:16,353 - INFO - Weather Recorder is initialized.
+2025-08-13 11:20:02,569 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:20:02,580 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:20:02,580 - INFO - Weather Recorder is initialized.
+2025-08-13 11:20:05,128 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:20:05,145 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:20:05,145 - INFO - Weather Recorder is initialized.
+2025-08-13 11:20:17,686 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:20:17,702 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:20:17,702 - INFO - Weather Recorder is initialized.
+2025-08-13 11:20:18,372 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:20:18,372 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:20:18,372 - INFO - Weather Recorder is initialized.
+2025-08-13 11:21:21,404 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:21:21,439 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:21:21,439 - INFO - Weather Recorder is initialized.
+2025-08-13 11:21:23,534 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:21:23,554 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:21:23,555 - INFO - Weather Recorder is initialized.
+2025-08-13 11:21:47,796 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:21:47,832 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:21:47,832 - INFO - Weather Recorder is initialized.
+2025-08-13 11:21:49,919 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:21:49,934 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:21:49,935 - INFO - Weather Recorder is initialized.
+2025-08-13 11:22:08,992 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:22:09,012 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:22:09,012 - INFO - Weather Recorder is initialized.
+2025-08-13 11:22:10,865 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:22:10,865 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:22:10,865 - INFO - Weather Recorder is initialized.
+2025-08-13 11:24:03,862 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:03,889 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:03,889 - INFO - Weather Recorder is initialized.
+2025-08-13 11:24:05,796 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:05,796 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:05,796 - INFO - Weather Recorder is initialized.
+2025-08-13 11:24:05,806 - INFO - Menu Loading
+2025-08-13 11:24:14,062 - INFO - Checking weather...
+2025-08-13 11:24:14,062 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:24:14,062 - INFO - Fetching weather for: cairo
+2025-08-13 11:24:14,352 - INFO - Success on attempt 1
+2025-08-13 11:24:14,352 - INFO - City: cairo | Degree: 34.42°C | Condition: clear sky | Humidity: 40.0%
+2025-08-13 11:24:14,352 - INFO - Adding Record
+2025-08-13 11:24:14,352 - INFO - Menu Loading
+2025-08-13 11:24:24,135 - INFO - Checking weather...
+2025-08-13 11:24:24,135 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:24:24,135 - INFO - Fetching weather for: london
+2025-08-13 11:24:24,399 - INFO - Success on attempt 1
+2025-08-13 11:24:24,399 - INFO - City: london | Degree: 22.27°C | Condition: overcast clouds | Humidity: 72.0%
+2025-08-13 11:24:24,399 - INFO - Adding Record
+2025-08-13 11:24:24,399 - INFO - Menu Loading
+2025-08-13 11:24:26,787 - INFO - Viewing history...
+2025-08-13 11:24:26,787 - INFO - Menu Loading
+2025-08-13 11:24:42,126 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:42,133 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:42,133 - INFO - Weather Recorder is initialized.
+2025-08-13 11:24:51,713 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:51,719 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:51,719 - INFO - Weather Recorder is initialized.
+2025-08-13 11:24:51,725 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:51,732 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:24:51,732 - INFO - Weather Recorder is initialized.
+2025-08-13 11:24:55,127 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:24:55,127 - INFO - Fetching weather for: cairo
+2025-08-13 11:24:55,399 - INFO - Success on attempt 1
+2025-08-13 11:25:06,253 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:25:06,253 - INFO - Fetching weather for: cai
+2025-08-13 11:25:06,527 - WARNING - Incomplete weather data for cai: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:25:06,528 - ERROR - Error on attempt 1: Incomplete weather data for cai
+2025-08-13 11:25:06,529 - INFO - Retrying in 2 seconds...
+2025-08-13 11:25:08,523 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 11:25:08,523 - INFO - Fetching weather for: cai
+2025-08-13 11:25:08,762 - WARNING - Incomplete weather data for cai: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:25:08,762 - ERROR - Error on attempt 2: Incomplete weather data for cai
+2025-08-13 11:25:08,762 - INFO - Retrying in 2 seconds...
+2025-08-13 11:25:10,755 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 11:25:10,760 - INFO - Fetching weather for: cai
+2025-08-13 11:25:11,044 - WARNING - Incomplete weather data for cai: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:25:11,044 - ERROR - Error on attempt 3: Incomplete weather data for cai
+2025-08-13 11:25:11,044 - CRITICAL - All 3 attempts failed.
+2025-08-13 11:26:46,790 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:26:46,790 - INFO - Weather Recorder is initialized.
+2025-08-13 11:26:46,807 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:26:46,807 - INFO - Weather Recorder is initialized.
+2025-08-13 11:26:46,819 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:26:46,819 - INFO - Weather Recorder is initialized.
+2025-08-13 11:26:46,823 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:26:46,824 - INFO - Weather Recorder is initialized.
+2025-08-13 11:26:50,360 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:26:50,360 - INFO - Fetching weather for: cairo
+2025-08-13 11:26:50,655 - INFO - Success on attempt 1
+2025-08-13 11:26:50,671 - INFO - Adding Record
+2025-08-13 11:27:12,601 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:27:12,602 - INFO - Weather Recorder is initialized.
+2025-08-13 11:27:12,606 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:27:12,606 - INFO - Weather Recorder is initialized.
+2025-08-13 11:27:12,696 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:27:12,696 - INFO - Weather Recorder is initialized.
+2025-08-13 11:27:12,696 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:27:12,696 - INFO - Weather Recorder is initialized.
+2025-08-13 11:27:31,189 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:27:31,198 - INFO - Weather Recorder is initialized.
+2025-08-13 11:27:31,198 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:27:31,198 - INFO - Weather Recorder is initialized.
+2025-08-13 11:27:31,211 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:27:31,212 - INFO - Weather Recorder is initialized.
+2025-08-13 11:27:31,215 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:27:31,215 - INFO - Weather Recorder is initialized.
+2025-08-13 11:27:41,640 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:27:41,640 - INFO - Fetching weather for: cairo
+2025-08-13 11:27:41,971 - INFO - Success on attempt 1
+2025-08-13 11:27:41,971 - INFO - Adding Record
+2025-08-13 11:27:51,573 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:27:51,573 - INFO - Fetching weather for: london
+2025-08-13 11:27:51,899 - INFO - Success on attempt 1
+2025-08-13 11:27:51,899 - INFO - Adding Record
+2025-08-13 11:53:43,056 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:53:43,056 - INFO - Weather Recorder is initialized.
+2025-08-13 11:53:43,057 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:53:43,057 - INFO - Weather Recorder is initialized.
+2025-08-13 11:54:27,208 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:54:27,208 - INFO - Weather Recorder is initialized.
+2025-08-13 11:54:27,215 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:54:27,216 - INFO - Weather Recorder is initialized.
+2025-08-13 11:54:27,223 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:54:27,223 - INFO - Fetching weather for: cairo
+2025-08-13 11:54:27,224 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:54:27,224 - INFO - Weather Recorder is initialized.
+2025-08-13 11:54:27,231 - INFO - Weather Fetcher is initialized.
+2025-08-13 11:54:27,231 - INFO - Weather Recorder is initialized.
+2025-08-13 11:54:27,566 - INFO - Success on attempt 1
+2025-08-13 11:54:27,566 - INFO - Adding Record
+2025-08-13 11:54:32,498 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:54:32,498 - INFO - Fetching weather for: cairo
+2025-08-13 11:54:32,819 - INFO - Success on attempt 1
+2025-08-13 11:54:32,819 - INFO - Adding Record
+2025-08-13 11:54:38,784 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:54:38,785 - INFO - Fetching weather for: multiple
+2025-08-13 11:54:39,133 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:54:39,133 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 11:54:39,133 - INFO - Retrying in 2 seconds...
+2025-08-13 11:54:41,132 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 11:54:41,132 - INFO - Fetching weather for: multiple
+2025-08-13 11:54:41,416 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:54:41,417 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 11:54:41,417 - INFO - Retrying in 2 seconds...
+2025-08-13 11:54:43,431 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 11:54:43,431 - INFO - Fetching weather for: multiple
+2025-08-13 11:54:43,732 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:54:43,732 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 11:54:43,734 - CRITICAL - All 3 attempts failed.
+2025-08-13 11:54:59,707 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:54:59,708 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:00,027 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:00,027 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 11:55:00,027 - INFO - Retrying in 2 seconds...
+2025-08-13 11:55:02,025 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 11:55:02,025 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:02,358 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:02,358 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 11:55:02,358 - INFO - Retrying in 2 seconds...
+2025-08-13 11:55:04,357 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 11:55:04,357 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:04,625 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:04,625 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 11:55:04,625 - CRITICAL - All 3 attempts failed.
+2025-08-13 11:55:29,282 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:55:29,283 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:29,600 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:29,600 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 11:55:29,600 - INFO - Retrying in 2 seconds...
+2025-08-13 11:55:31,598 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 11:55:31,598 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:31,922 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:31,922 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 11:55:31,922 - INFO - Retrying in 2 seconds...
+2025-08-13 11:55:33,913 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 11:55:33,914 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:34,231 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:34,231 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 11:55:34,231 - CRITICAL - All 3 attempts failed.
+2025-08-13 11:55:42,199 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:55:42,200 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:42,562 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:42,562 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 11:55:42,562 - INFO - Retrying in 2 seconds...
+2025-08-13 11:55:44,561 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 11:55:44,561 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:44,861 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:44,861 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 11:55:44,861 - INFO - Retrying in 2 seconds...
+2025-08-13 11:55:46,860 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 11:55:46,860 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:47,194 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:47,194 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 11:55:47,194 - CRITICAL - All 3 attempts failed.
+2025-08-13 11:55:53,126 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 11:55:53,127 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:53,458 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:53,458 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 11:55:53,458 - INFO - Retrying in 2 seconds...
+2025-08-13 11:55:55,473 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 11:55:55,473 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:55,791 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:55,791 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 11:55:55,791 - INFO - Retrying in 2 seconds...
+2025-08-13 11:55:57,789 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 11:55:57,789 - INFO - Fetching weather for: multiple
+2025-08-13 11:55:58,089 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 11:55:58,090 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 11:55:58,090 - CRITICAL - All 3 attempts failed.
+2025-08-13 12:02:45,439 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:02:45,442 - INFO - Weather Recorder is initialized.
+2025-08-13 12:02:45,442 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:02:45,442 - INFO - Weather Recorder is initialized.
+2025-08-13 12:02:45,442 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:02:45,442 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:02:45,442 - INFO - Weather Recorder is initialized.
+2025-08-13 12:02:45,442 - INFO - Weather Recorder is initialized.
+2025-08-13 12:02:54,920 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:02:54,920 - INFO - Fetching weather for: multiple
+2025-08-13 12:02:55,216 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:02:55,218 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 12:02:55,219 - INFO - Retrying in 2 seconds...
+2025-08-13 12:02:57,213 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 12:02:57,213 - INFO - Fetching weather for: multiple
+2025-08-13 12:02:57,430 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:02:57,430 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 12:02:57,430 - INFO - Retrying in 2 seconds...
+2025-08-13 12:02:59,429 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 12:02:59,429 - INFO - Fetching weather for: multiple
+2025-08-13 12:02:59,662 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:02:59,662 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 12:02:59,662 - CRITICAL - All 3 attempts failed.
+2025-08-13 12:04:08,374 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:04:08,375 - INFO - Weather Recorder is initialized.
+2025-08-13 12:04:08,380 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:04:08,380 - INFO - Weather Recorder is initialized.
+2025-08-13 12:04:08,383 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:04:08,384 - INFO - Weather Recorder is initialized.
+2025-08-13 12:04:08,389 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:04:08,390 - INFO - Weather Recorder is initialized.
+2025-08-13 12:04:17,147 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:04:17,147 - INFO - Fetching weather for: multiple
+2025-08-13 12:04:17,418 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:04:17,418 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 12:04:17,434 - INFO - Retrying in 2 seconds...
+2025-08-13 12:04:19,433 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 12:04:19,434 - INFO - Fetching weather for: multiple
+2025-08-13 12:04:19,684 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:04:19,684 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 12:04:19,684 - INFO - Retrying in 2 seconds...
+2025-08-13 12:04:21,681 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 12:04:21,683 - INFO - Fetching weather for: multiple
+2025-08-13 12:04:21,917 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:04:21,917 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 12:04:21,917 - CRITICAL - All 3 attempts failed.
+2025-08-13 12:05:15,219 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:05:15,219 - INFO - Weather Recorder is initialized.
+2025-08-13 12:05:15,222 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:05:15,223 - INFO - Weather Recorder is initialized.
+2025-08-13 12:05:16,357 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:05:16,357 - INFO - Weather Recorder is initialized.
+2025-08-13 12:05:16,364 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:05:16,365 - INFO - Weather Recorder is initialized.
+2025-08-13 12:05:44,977 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:05:44,977 - INFO - Weather Recorder is initialized.
+2025-08-13 12:05:44,977 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:05:44,977 - INFO - Weather Recorder is initialized.
+2025-08-13 12:05:45,028 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:05:45,028 - INFO - Weather Recorder is initialized.
+2025-08-13 12:05:45,033 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:05:45,034 - INFO - Weather Recorder is initialized.
+2025-08-13 12:05:58,410 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:05:58,410 - INFO - Fetching weather for: multiple
+2025-08-13 12:05:58,699 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:05:58,701 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 12:05:58,702 - INFO - Retrying in 2 seconds...
+2025-08-13 12:06:00,699 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 12:06:00,699 - INFO - Fetching weather for: multiple
+2025-08-13 12:06:00,932 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:06:00,932 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 12:06:00,932 - INFO - Retrying in 2 seconds...
+2025-08-13 12:06:02,932 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 12:06:02,932 - INFO - Fetching weather for: multiple
+2025-08-13 12:06:03,171 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:06:03,174 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 12:06:03,174 - CRITICAL - All 3 attempts failed.
+2025-08-13 12:08:12,666 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:08:12,666 - INFO - Weather Recorder is initialized.
+2025-08-13 12:08:12,671 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:08:12,672 - INFO - Weather Recorder is initialized.
+2025-08-13 12:08:12,672 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:08:12,672 - INFO - Weather Recorder is initialized.
+2025-08-13 12:08:12,677 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:08:12,678 - INFO - Weather Recorder is initialized.
+2025-08-13 12:08:18,743 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:08:18,743 - INFO - Fetching weather for: multiple
+2025-08-13 12:08:19,027 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:08:19,028 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 12:08:19,028 - INFO - Retrying in 2 seconds...
+2025-08-13 12:08:21,028 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 12:08:21,028 - INFO - Fetching weather for: multiple
+2025-08-13 12:08:21,298 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:08:21,299 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 12:08:21,299 - INFO - Retrying in 2 seconds...
+2025-08-13 12:08:23,288 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 12:08:23,288 - INFO - Fetching weather for: multiple
+2025-08-13 12:08:23,555 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:08:23,555 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 12:08:23,555 - CRITICAL - All 3 attempts failed.
+2025-08-13 12:12:13,746 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:12:13,747 - INFO - Weather Recorder is initialized.
+2025-08-13 12:12:13,749 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:12:13,749 - INFO - Weather Recorder is initialized.
+2025-08-13 12:12:13,763 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:12:13,763 - INFO - Weather Recorder is initialized.
+2025-08-13 12:12:13,766 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:12:13,766 - INFO - Weather Recorder is initialized.
+2025-08-13 12:12:17,881 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:12:17,881 - INFO - Fetching weather for: multiple
+2025-08-13 12:12:18,185 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:12:18,186 - ERROR - Error on attempt 1: Incomplete weather data for multiple
+2025-08-13 12:12:18,186 - INFO - Retrying in 2 seconds...
+2025-08-13 12:12:20,184 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 12:12:20,185 - INFO - Fetching weather for: multiple
+2025-08-13 12:12:20,421 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:12:20,421 - ERROR - Error on attempt 2: Incomplete weather data for multiple
+2025-08-13 12:12:20,427 - INFO - Retrying in 2 seconds...
+2025-08-13 12:12:22,433 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 12:12:22,433 - INFO - Fetching weather for: multiple
+2025-08-13 12:12:22,670 - WARNING - Incomplete weather data for multiple: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:12:22,671 - ERROR - Error on attempt 3: Incomplete weather data for multiple
+2025-08-13 12:12:22,672 - CRITICAL - All 3 attempts failed.
+2025-08-13 12:12:23,363 - INFO - Received cities: cairo,london
+2025-08-13 12:12:23,364 - WARNING - cities: cairo,london
+2025-08-13 12:12:23,364 - WARNING - cities: ['cairo', 'london']
+2025-08-13 12:12:23,365 - INFO - Validating city: cairo
+2025-08-13 12:12:23,365 - INFO - Fetching weather for: cairo
+2025-08-13 12:12:23,366 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:12:23,366 - INFO - Fetching weather for: cairo
+2025-08-13 12:12:23,367 - INFO - Validating city: london
+2025-08-13 12:12:23,368 - INFO - Fetching weather for: london
+2025-08-13 12:12:23,368 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:12:23,369 - INFO - Fetching weather for: london
+2025-08-13 12:12:23,585 - INFO - Success on attempt 1
+2025-08-13 12:12:23,611 - INFO - Adding Record
+2025-08-13 12:12:23,612 - INFO - Success on attempt 1
+2025-08-13 12:12:23,613 - INFO - Adding Record
+2025-08-13 12:13:29,464 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:13:29,464 - INFO - Weather Recorder is initialized.
+2025-08-13 12:13:29,478 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:13:29,479 - INFO - Weather Recorder is initialized.
+2025-08-13 12:13:29,481 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:13:29,481 - INFO - Weather Recorder is initialized.
+2025-08-13 12:13:29,481 - INFO - Weather Recorder is initialized.
+2025-08-13 12:14:22,427 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:14:22,443 - INFO - Weather Recorder is initialized.
+2025-08-13 12:14:22,444 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:14:22,444 - INFO - Weather Recorder is initialized.
+2025-08-13 12:14:22,479 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:14:22,479 - INFO - Weather Recorder is initialized.
+2025-08-13 12:14:22,486 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:14:22,487 - INFO - Weather Recorder is initialized.
+2025-08-13 12:15:15,291 - INFO - Received cities: cairo,london
+2025-08-13 12:15:15,291 - INFO - Validating city: cairo
+2025-08-13 12:15:15,292 - INFO - Fetching weather for: cairo
+2025-08-13 12:15:15,292 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:15:15,292 - INFO - Fetching weather for: cairo
+2025-08-13 12:15:15,293 - INFO - Validating city: london
+2025-08-13 12:15:15,293 - INFO - Fetching weather for: london
+2025-08-13 12:15:15,294 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:15:15,294 - INFO - Fetching weather for: london
+2025-08-13 12:15:15,547 - INFO - Success on attempt 1
+2025-08-13 12:15:15,548 - INFO - Adding Record
+2025-08-13 12:15:15,561 - INFO - Success on attempt 1
+2025-08-13 12:15:15,562 - INFO - Adding Record
+2025-08-13 12:15:28,731 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:15:28,731 - INFO - Fetching weather for: cairo
+2025-08-13 12:15:29,021 - INFO - Success on attempt 1
+2025-08-13 12:15:29,021 - INFO - Adding Record
+2025-08-13 12:15:34,450 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:15:34,450 - INFO - Fetching weather for: alexandria
+2025-08-13 12:15:34,717 - INFO - Success on attempt 1
+2025-08-13 12:15:34,719 - INFO - Adding Record
+2025-08-13 12:17:20,051 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:17:20,051 - INFO - Weather Recorder is initialized.
+2025-08-13 12:17:20,051 - INFO - Weather Recorder is initialized.
+2025-08-13 12:17:20,066 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:17:20,066 - INFO - Weather Recorder is initialized.
+2025-08-13 12:17:20,066 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:17:20,066 - INFO - Weather Recorder is initialized.
+2025-08-13 12:17:24,258 - INFO - Received cities: cairo,london
+2025-08-13 12:17:24,258 - INFO - Validating city: cairo
+2025-08-13 12:17:24,258 - INFO - Fetching weather for: cairo
+2025-08-13 12:17:24,258 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:17:24,258 - INFO - Fetching weather for: cairo
+2025-08-13 12:17:24,258 - INFO - Validating city: london
+2025-08-13 12:17:24,258 - INFO - Fetching weather for: london
+2025-08-13 12:17:24,258 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:17:24,258 - INFO - Fetching weather for: london
+2025-08-13 12:17:24,531 - INFO - Success on attempt 1
+2025-08-13 12:17:24,531 - INFO - Adding Record
+2025-08-13 12:17:24,549 - INFO - Success on attempt 1
+2025-08-13 12:17:24,549 - INFO - Adding Record
+2025-08-13 12:17:30,735 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:17:30,735 - INFO - Fetching weather for: cairo
+2025-08-13 12:17:31,013 - INFO - Success on attempt 1
+2025-08-13 12:17:31,013 - INFO - Adding Record
+2025-08-13 12:17:35,324 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:17:35,324 - INFO - Fetching weather for: alexandria
+2025-08-13 12:17:35,611 - INFO - Success on attempt 1
+2025-08-13 12:17:35,611 - INFO - Adding Record
+2025-08-13 12:17:52,870 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:17:52,871 - INFO - Fetching weather for: cairo
+2025-08-13 12:17:53,138 - INFO - Success on attempt 1
+2025-08-13 12:17:53,138 - INFO - Adding Record
+2025-08-13 12:19:24,620 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:19:24,620 - INFO - Weather Recorder is initialized.
+2025-08-13 12:19:24,626 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:19:24,626 - INFO - Weather Recorder is initialized.
+2025-08-13 12:19:25,179 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:19:25,180 - INFO - Weather Recorder is initialized.
+2025-08-13 12:19:25,185 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:19:25,185 - INFO - Weather Recorder is initialized.
+2025-08-13 12:19:26,372 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:19:26,373 - INFO - Fetching weather for: cairo
+2025-08-13 12:19:26,723 - INFO - Success on attempt 1
+2025-08-13 12:19:26,724 - INFO - Adding Record
+2025-08-13 12:19:31,862 - INFO - Received cities: cairo,london
+2025-08-13 12:19:31,863 - INFO - Validating city: cairo
+2025-08-13 12:19:31,863 - INFO - Fetching weather for: cairo
+2025-08-13 12:19:31,863 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:19:31,864 - INFO - Fetching weather for: cairo
+2025-08-13 12:19:31,864 - INFO - Validating city: london
+2025-08-13 12:19:31,864 - INFO - Fetching weather for: london
+2025-08-13 12:19:31,865 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:19:31,865 - INFO - Fetching weather for: london
+2025-08-13 12:19:32,130 - INFO - Success on attempt 1
+2025-08-13 12:19:32,130 - INFO - Adding Record
+2025-08-13 12:19:32,166 - INFO - Success on attempt 1
+2025-08-13 12:19:32,167 - INFO - Adding Record
+2025-08-13 12:19:53,440 - INFO - Received cities: cairo,london
+2025-08-13 12:19:53,441 - INFO - Validating city: cairo
+2025-08-13 12:19:53,442 - INFO - Fetching weather for: cairo
+2025-08-13 12:19:53,442 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:19:53,443 - INFO - Fetching weather for: cairo
+2025-08-13 12:19:53,443 - INFO - Validating city: london
+2025-08-13 12:19:53,444 - INFO - Fetching weather for: london
+2025-08-13 12:19:53,445 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:19:53,445 - INFO - Fetching weather for: london
+2025-08-13 12:19:53,683 - INFO - Success on attempt 1
+2025-08-13 12:19:53,684 - INFO - Adding Record
+2025-08-13 12:19:53,685 - INFO - Success on attempt 1
+2025-08-13 12:19:53,685 - INFO - Adding Record
+2025-08-13 12:20:02,371 - INFO - Received cities: cairo,london,123
+2025-08-13 12:20:02,372 - INFO - Validating city: cairo
+2025-08-13 12:20:02,372 - INFO - Fetching weather for: cairo
+2025-08-13 12:20:02,373 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:20:02,373 - INFO - Fetching weather for: cairo
+2025-08-13 12:20:02,375 - INFO - Validating city: london
+2025-08-13 12:20:02,376 - INFO - Fetching weather for: london
+2025-08-13 12:20:02,377 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:20:02,377 - INFO - Fetching weather for: london
+2025-08-13 12:20:02,378 - INFO - Validating city: 123
+2025-08-13 12:20:02,379 - WARNING - Invalid city: 123
+2025-08-13 12:20:02,633 - INFO - Success on attempt 1
+2025-08-13 12:20:02,634 - INFO - Adding Record
+2025-08-13 12:20:02,663 - INFO - Success on attempt 1
+2025-08-13 12:20:02,663 - INFO - Adding Record
+2025-08-13 12:24:31,632 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:24:31,632 - INFO - Weather Recorder is initialized.
+2025-08-13 12:24:31,634 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:24:31,634 - INFO - Weather Recorder is initialized.
+2025-08-13 12:24:31,638 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:24:31,638 - INFO - Weather Recorder is initialized.
+2025-08-13 12:24:31,638 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:24:31,638 - INFO - Weather Recorder is initialized.
+2025-08-13 12:24:41,909 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:24:41,909 - INFO - Fetching weather for: cairo
+2025-08-13 12:24:42,181 - INFO - Success on attempt 1
+2025-08-13 12:24:42,181 - INFO - Adding Record
+2025-08-13 12:25:01,581 - INFO - Received cities: cairo,london
+2025-08-13 12:25:01,582 - INFO - Validating city: cairo
+2025-08-13 12:25:01,583 - INFO - Fetching weather for: cairo
+2025-08-13 12:25:01,583 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:25:01,583 - INFO - Fetching weather for: cairo
+2025-08-13 12:25:01,584 - INFO - Validating city: london
+2025-08-13 12:25:01,584 - INFO - Fetching weather for: london
+2025-08-13 12:25:01,584 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:25:01,585 - INFO - Fetching weather for: london
+2025-08-13 12:25:01,829 - INFO - Success on attempt 1
+2025-08-13 12:25:01,830 - INFO - Adding Record
+2025-08-13 12:25:01,849 - INFO - Success on attempt 1
+2025-08-13 12:25:01,851 - INFO - Adding Record
+2025-08-13 12:27:49,352 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:27:49,352 - INFO - Weather Recorder is initialized.
+2025-08-13 12:27:49,352 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:27:49,352 - INFO - Weather Recorder is initialized.
+2025-08-13 12:27:49,352 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:27:49,352 - INFO - Weather Recorder is initialized.
+2025-08-13 12:27:49,352 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:27:49,352 - INFO - Weather Recorder is initialized.
+2025-08-13 12:30:24,714 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:30:24,714 - INFO - Weather Recorder is initialized.
+2025-08-13 12:30:24,714 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:30:24,714 - INFO - Weather Recorder is initialized.
+2025-08-13 12:30:24,739 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:30:24,739 - INFO - Weather Recorder is initialized.
+2025-08-13 12:30:24,750 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:30:24,750 - INFO - Weather Recorder is initialized.
+2025-08-13 12:30:35,794 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:30:35,795 - INFO - Fetching weather for: cairo
+2025-08-13 12:30:36,126 - INFO - Success on attempt 1
+2025-08-13 12:30:36,126 - INFO - Adding Record
+2025-08-13 12:30:41,526 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:30:41,526 - INFO - Fetching weather for: alexandira
+2025-08-13 12:30:41,876 - WARNING - Incomplete weather data for alexandira: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:30:41,891 - ERROR - Error on attempt 1: Incomplete weather data for alexandira
+2025-08-13 12:30:41,891 - INFO - Retrying in 2 seconds...
+2025-08-13 12:30:43,890 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 12:30:43,890 - INFO - Fetching weather for: alexandira
+2025-08-13 12:30:44,190 - WARNING - Incomplete weather data for alexandira: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:30:44,251 - ERROR - Error on attempt 2: Incomplete weather data for alexandira
+2025-08-13 12:30:44,252 - INFO - Retrying in 2 seconds...
+2025-08-13 12:30:46,240 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 12:30:46,240 - INFO - Fetching weather for: alexandira
+2025-08-13 12:30:46,539 - WARNING - Incomplete weather data for alexandira: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:30:46,539 - ERROR - Error on attempt 3: Incomplete weather data for alexandira
+2025-08-13 12:30:46,539 - CRITICAL - All 3 attempts failed.
+2025-08-13 12:34:23,250 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:34:23,250 - INFO - Weather Recorder is initialized.
+2025-08-13 12:34:23,250 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:34:23,265 - INFO - Weather Recorder is initialized.
+2025-08-13 12:34:23,268 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:34:23,268 - INFO - Weather Recorder is initialized.
+2025-08-13 12:34:23,271 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:34:23,272 - INFO - Weather Recorder is initialized.
+2025-08-13 12:34:23,280 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:34:23,281 - INFO - Fetching weather for: alexandira
+2025-08-13 12:34:23,565 - WARNING - Incomplete weather data for alexandira: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:34:23,565 - ERROR - Error on attempt 1: Incomplete weather data for alexandira
+2025-08-13 12:34:23,565 - INFO - Retrying in 2 seconds...
+2025-08-13 12:34:25,564 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 12:34:25,564 - INFO - Fetching weather for: alexandira
+2025-08-13 12:34:25,797 - WARNING - Incomplete weather data for alexandira: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:34:25,797 - ERROR - Error on attempt 2: Incomplete weather data for alexandira
+2025-08-13 12:34:25,797 - INFO - Retrying in 2 seconds...
+2025-08-13 12:34:27,780 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 12:34:27,781 - INFO - Fetching weather for: alexandira
+2025-08-13 12:34:27,998 - WARNING - Incomplete weather data for alexandira: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:34:28,015 - ERROR - Error on attempt 3: Incomplete weather data for alexandira
+2025-08-13 12:34:28,015 - CRITICAL - All 3 attempts failed.
+2025-08-13 12:34:30,592 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:34:30,593 - INFO - Fetching weather for: alexandira
+2025-08-13 12:34:30,885 - WARNING - Incomplete weather data for alexandira: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:34:30,886 - ERROR - Error on attempt 1: Incomplete weather data for alexandira
+2025-08-13 12:34:30,886 - INFO - Retrying in 2 seconds...
+2025-08-13 12:34:32,894 - INFO - Attempt 2 for fetch_weather_for_city
+2025-08-13 12:34:32,894 - INFO - Fetching weather for: alexandira
+2025-08-13 12:34:33,128 - WARNING - Incomplete weather data for alexandira: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:34:33,128 - ERROR - Error on attempt 2: Incomplete weather data for alexandira
+2025-08-13 12:34:33,128 - INFO - Retrying in 2 seconds...
+2025-08-13 12:34:35,143 - INFO - Attempt 3 for fetch_weather_for_city
+2025-08-13 12:34:35,143 - INFO - Fetching weather for: alexandira
+2025-08-13 12:34:35,430 - WARNING - Incomplete weather data for alexandira: {'cod': '404', 'message': 'city not found'}
+2025-08-13 12:34:35,430 - ERROR - Error on attempt 3: Incomplete weather data for alexandira
+2025-08-13 12:34:35,430 - CRITICAL - All 3 attempts failed.
+2025-08-13 12:34:43,427 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:34:43,427 - INFO - Fetching weather for: cairo
+2025-08-13 12:34:43,724 - INFO - Success on attempt 1
+2025-08-13 12:34:43,724 - INFO - Adding Record
+2025-08-13 12:34:50,733 - INFO - Attempt 1 for fetch_weather_for_city
+2025-08-13 12:34:50,733 - INFO - Fetching weather for: alexandria
+2025-08-13 12:34:51,005 - INFO - Success on attempt 1
+2025-08-13 12:34:51,005 - INFO - Adding Record
+2025-08-13 12:34:54,465 - INFO - Weather history exported to C:\Users\ElSayedM18\Py\Task\weather.csv
+2025-08-13 12:45:04,225 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:45:04,226 - INFO - Weather Recorder is initialized.
+2025-08-13 12:45:04,259 - INFO - Weather Fetcher is initialized.
+2025-08-13 12:45:04,260 - INFO - Weather Recorder is initialized.

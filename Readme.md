@@ -1,58 +1,33 @@
-# 🌦️ Weather Reporter CLI
+# 🌦️ Weather Reporter — CLI & FastAPI
 
-A command-line tool to fetch and record weather data using OpenWeatherMap. Built with async API calls, input validation, logging, and CSV export.
-
-## 🚀 Features
-
-- Async weather fetching with retry logic
-- Input validation for city names
-- Rotating log files
-- Weather history tracking
-- CSV export
-- Modular codebase with docstrings and type hints
-
-## 🛠️ Setup
-
-1. Clone the repo:
-```bash
-git clone https://github.com/yourusername/weather-reporter-cli.git
-cd weather-reporter-cli
-
-python -m venv venvName
-source venvName/Scripts/activate 
-
-pip install -r requirements.txt
+A modular Python app to fetch, record, and analyze weather data using OpenWeatherMap. Built with async API calls, input validation, logging, FastAPI endpoints, and CSV export. Features include async weather fetching with retry logic, input validation for city names, FastAPI RESTful endpoints, weather history tracking (in-memory), CSV export (downloadable via API), statistical summary via Pandas, modular architecture with docstrings and type hints, and a CLI interface for local usage.
 
 
-### 4. **Usage Instructions**
-```markdown
-## 🧪 Usage
+To set up the project:
+first clone the repo using: git clone https://github.com/mennatullahra/WeatherFetcher-FastAPI.git and cd into the project folder. 
+Create and activate a virtual environment using: python -m venv venvName 
+followed by venvName\Scripts\activate on Windows or source venvName/bin/activate on macOS/Linux. Then install dependencies with: pip install -r requirements.txt.
 
-Run the app:
-```bash
-python main.py
+To run the CLI, execute: python app.main.py. 
+You’ll be presented with a menu: 
+    1. Check Weather
+    2. View History
+    3. Export to CSV
+    4. Exit. 
+Example interaction: Enter city name: Cairo 
+  City: Cairo | Degree: 32°C | Condition: Sunny | Humidity: 40%.
 
-Choose from the menu:
+To run the FastAPI server, use: python -m uvicorn app.main:app --reload. 
+Visit Swagger UI at http://127.0.0.1:8000/docs. 
+Available routes include: 
+  GET /weather/city/{city} to fetch weather for a single city, 
+  GET /weather/multi?cities=a,b,c to fetch weather for multiple cities, 
+  GET /weather/summary to return statistical summary, 
+  GET /weather/export to download weather history as CSV.
 
-1. Check Weather
-2. View History
-3. Export to CSV
-4. Exit
+The app uses OpenWeatherMap as its data provider. 
+The API endpoint is https://api.openweathermap.org/data/2.5/weather with parameters: q for city name, appid for your API key, and units for metric or imperial.
 
-Example:
+Project structure includes: app/main.py, WeatherRouter.py, WeatherFetcher.py, WeatherRecorder.py, Weather.py, RetryMechanism.py, Validator.py, cli/CLI.py, weather.csv, weather.log, requirements.txt, and README.md.
 
-Enter city name: Cairo
-City: Cairo | Degree: 32°C | Condition: Sunny | Humidity: 40%
-
-
-### 5. **API Info**
-```markdown
-## 🌐 API Info
-
-- Provider: OpenWeatherMap
-- Endpoint: `https://api.openweathermap.org/data/2.5/weather`
-- Parameters:
-  - `q`: City name
-  - `appid`: Your API key
-  - `units`: metric or imperial
-
+Made by Mennatullah (https://github.com/mennatullahra)
